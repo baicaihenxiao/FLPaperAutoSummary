@@ -31,3 +31,30 @@ aside.toc-nav {
     right: 0% !important;
     max-height: 85% !important;
 }
+
+/* ---------------------------------------------------------------------------
+   Federated-learning paper summary tables: pin only the two columns that need
+   it — a wide "Short conclusion" and a narrow, wrapping "URL". Every other
+   column sizes itself automatically (the layout stays "auto").
+
+   The space-less DOI string in "URL" would otherwise force that column wide and
+   squeeze "Short conclusion". Letting the URL wrap and giving the two columns a
+   target width is enough — no need to enumerate the rest.
+
+   Scope: ":has(thead th:nth-child(10))" limits this to the paper tables (>= 10
+   columns), so the 5-column ccf.md table is left alone; browsers without :has()
+   ignore the block. "Short conclusion" and "URL" are always the last two
+   columns, so they're addressed from the right. Tweak the two widths to taste. */
+.markdown-section table:has(thead th:nth-child(10)) {
+  display: table;   /* override docsify's display:block so width:100% and % widths apply */
+  width: 100%;
+}
+.markdown-section table:has(thead th:nth-child(10)) th,
+.markdown-section table:has(thead th:nth-child(10)) td {
+  vertical-align: top;
+}
+.markdown-section table:has(thead th:nth-child(10)) tr > :nth-last-child(2) { width: 40%; } /* Short conclusion */
+.markdown-section table:has(thead th:nth-child(10)) tr > :last-child {
+  width: 9%;
+  word-break: break-all;   /* wrap the long DOI link instead of widening the column */
+}
