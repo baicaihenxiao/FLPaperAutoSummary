@@ -9,6 +9,9 @@
 - - TIFS
 - - - [2025 TIFS FL All Papers](/2025/TIFS/2025-TIFS-FL-ALL.md)
 - - - [2025 TIFS FL Star Papers](/2025/TIFS/2025-TIFS-FL-Star.md)
+- - TDSC
+- - - [2025 TDSC FL All Papers](/2025/TDSC/2025-TDSC-FL-ALL.md)
+- - - [2025 TDSC FL Star Papers](/2025/TDSC/2025-TDSC-FL-Star.md)
 
 
 
