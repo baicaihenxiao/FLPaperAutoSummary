@@ -29,3 +29,10 @@ paper summary tables (for example, the Markdown files under `2025/`).
   (usually a DBLP listing).
 - Use these URLs to look up a venue's DBLP page (to locate or verify a paper's
   title, authors, year, and DOI) and to confirm the venue's CCF rank.
+
+## Summary Navigation
+
+- When adding a Markdown file, also update `SUMMARY.md` so the navigation list
+  includes the new file.
+- Match the nested hyphen indentation in `SUMMARY.md` to the Markdown file's
+  location, for example year, then venue, then the file link.
