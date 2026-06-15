@@ -2,8 +2,10 @@
 - [Contents](/SUMMARY.md)
 
 - <hr>
+- [CCF](/ccf.md)
+- <hr>
 - **Papers**
-- [CCF Recommended Venues](/ccf.md)
+- [2026-06 updated-FL-ALL](2026-06-updated-FL-ALL.md)
 - <hr>
 - 2025
 - - TIFS
