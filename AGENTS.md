@@ -6,20 +6,19 @@ The following rules apply when generating or revising the federated learning
 paper summary tables (for example, the Markdown files under `2025/`).
 
 
-### `Abstract` column
-
-- The content in the `Abstract` column is the abstract of the paper, copied
-  verbatim from the paper's own abstract text.
-
 ### `CCF` column
 
 - Use only `A`, `B`, or `C` as the cell value, matching the paper venue's CCF
   rank. Do not write the full label (e.g., do not write `CCF A`).
 
-### `Title` column
+### `Title & Abstract` column
 
 - Format the paper title as inline code, for example `` `Privacy-Preserving
   Federated Learning` ``, rather than plain text.
+- The content in the `Abstract` column is the abstract of the paper, copied
+  verbatim from the paper's own abstract text.
+- Fill the cell with the format `` `Title` - Abstract ``.
+
 
 ### `Venue` column
 
