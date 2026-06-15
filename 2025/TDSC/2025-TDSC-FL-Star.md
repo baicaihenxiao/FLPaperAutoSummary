@@ -1,3 +1,5 @@
+https://dblp.uni-trier.de/db/journals/tdsc/tdsc22.html
+
 # 2025-TDSC-Privacy-Preserving or Robust Federated Learning
 
 This file lists papers marked with ⭐ in `2025-TDSC-FL-ALL.md`, meaning they propose or analyze a privacy-preserving, secure, robust, Byzantine-resilient, poisoning-defense, or related trustworthy federated learning scheme.

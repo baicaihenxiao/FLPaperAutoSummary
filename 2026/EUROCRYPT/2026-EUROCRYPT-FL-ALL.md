@@ -1,3 +1,5 @@
+https://dblp.uni-trier.de/db/conf/eurocrypt/eurocrypt2026.html
+
 # 2026-EUROCRYPT-Federated Learning All Paper Info
 
 Star marker ⭐ indicates a privacy-preserving or robustness/security defense federated learning scheme. Pure attack, vulnerability, comment, or critique papers are not starred unless they also propose a defense scheme.
