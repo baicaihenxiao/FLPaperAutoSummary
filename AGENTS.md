@@ -9,9 +9,10 @@ paper summary tables (for example, the Markdown files under `2025/`).
 
 - Each paper's `Short conclusion` entry must contain at least 50 words; do not
   leave terse, one-line summaries in the table.
-- Write complete sentences that cover the paper's contribution and its survey
-  value (such as the threat model, tradeoff, or comparison points), rather than
-  a single clause.
+- Base the conclusion on the paper's abstract, writing complete sentences that
+  cover the paper's contribution and its survey value (such as the threat
+  model, tradeoff, or comparison points), rather than a single clause.
+
 
 ### `URL` column
 
@@ -19,6 +20,11 @@ paper summary tables (for example, the Markdown files under `2025/`).
   `https://doi.org/10.1109/TIFS.2024.3484946`.
 - Use this canonical DOI form rather than publisher landing-page or DBLP links
   whenever a DOI is available.
+
+### `added date` column
+
+- Use the date when the line is added to the table
+- The format is `MM/YYYY`, eg, `06/2026`
 
 ## Searching for Paper Info
 
