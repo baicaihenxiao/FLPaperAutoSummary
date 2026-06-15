@@ -8,5 +8,5 @@ Source: DBLP IEEE Symposium on Security and Privacy (2026).
 
 Total papers: 0
 
-| No. | Star | Year | added date | Venue | CCF | Title | Authors | Keywords | Topic | Abstract | URL |
-| :---: | :---: | :---: | :---: | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| No. | Star | Year | added date | Venue | CCF | Title & Abstract | Authors | Keywords | Topic | URL |
+| :---: | :---: | :---: | :---: | :--- | :--- | :--- | :--- | :--- | :--- | :--- |

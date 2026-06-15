@@ -8,5 +8,5 @@ Source: DBLP IEEE/ACM Transactions on Networking (2026).
 
 Total papers: 0
 
-| No. | Year | added date | Venue | CCF | Title | Authors | Keywords | Topic | Abstract | URL |
-| :---: | :---: | :---: | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| No. | Year | added date | Venue | CCF | Title & Abstract | Authors | Keywords | Topic | URL |
+| :---: | :---: | :---: | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
