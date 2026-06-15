@@ -5,14 +5,26 @@
 The following rules apply when generating or revising the federated learning
 paper summary tables (for example, the Markdown files under `2025/`).
 
-### `Short conclusion` column
 
-- Each paper's `Short conclusion` entry must contain at least 50 words; do not
-  leave terse, one-line summaries in the table.
-- Base the conclusion on the paper's abstract, writing complete sentences that
-  cover the paper's contribution and its survey value (such as the threat
-  model, tradeoff, or comparison points), rather than a single clause.
+### `Abstract` column
 
+- The content in the `Abstract` column is the abstract of the paper, copied
+  verbatim from the paper's own abstract text.
+
+### `CCF` column
+
+- Use only `A`, `B`, or `C` as the cell value, matching the paper venue's CCF
+  rank. Do not write the full label (e.g., do not write `CCF A`).
+
+### `Title` column
+
+- Format the paper title as inline code, for example `` `Privacy-Preserving
+  Federated Learning` ``, rather than plain text.
+
+### `Venue` column
+
+- Use the short venue abbreviation only, for example `TIFS`, not the full
+  publisher-prefixed form (e.g., do not write `IEEE TIFS`).
 
 ### `URL` column
 
