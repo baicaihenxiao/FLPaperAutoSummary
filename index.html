@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no, viewport-fit=cover">
-    <title>DOCSIFY EXAMPLE -baicaihenxiao</title>
+    <title>Research -baicaihenxiao</title>
 
             <!-- Test Stylesheets -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/themes/vue.css">
@@ -21,12 +21,14 @@
     <link rel="stylesheet" href="./assets/css/baicaiDocsStyle.css">
 
 
-    <!-- <link rel="shortcut icon" type="image/jpg" href="./assets/icon/luxun.jpg"> -->
-    <link rel="shortcut icon" type="image/jpg" href="https://gitee.com/baicaihenxiao/imageDB/raw/master/luxun.jpg">
+     <link rel="shortcut icon" type="image/jpg" href="./assets/icon/luxun.jpg">
+<!--    <link rel="shortcut icon" type="image/jpg" href="https://gitee.com/baicaihenxiao/imageDB/raw/master/luxun.jpg">-->
 
 
     <!-- https://github.com/upupming/docsify-katex -->
         <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css"/>
+
+
 
 
         <!-- support math latex -->
@@ -48,6 +50,8 @@
     <!-- github 编辑   https://github.com/njleonzhang/docsify-edit-on-github -->
 <!--    <script src="//unpkg.com/docsify-edit-on-github/index.js"></script>-->
     <script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github"></script>
+<!--    &lt;!&ndash; https://github.com/HerbertHe/docsify-progress &ndash;&gt;-->
+<!--    <script src="https://cdn.jsdelivr.net/npm/docsify-progress@latest/dist/progress.min.js"></script>-->
 
     <!-- JavaScript -->
     <script>
@@ -55,12 +59,15 @@
         window.$docsify = {
             // GENERAL
             // -----------------------------------------------------------------
-            name       : 'DOCSIFY EXAMPLE',
+            name       : 'Research',
             // repo       : 'https://github.com/baicaihenxiao', 注释掉这个可以去掉右上角的github corner
             // logo: '/assets/icon/luxun.jpg',
             // coverpage  : 'coverpage.md',
-            homepage   : 'README.md',
+            homepage   : 'SUMMARY.md',
             loadSidebar: 'SUMMARY.md',
+
+            // 主题颜色
+            themeColor: '#b0a4e3',
 
             // NAVIGATION
             // -----------------------------------------------------------------
@@ -68,23 +75,55 @@
             //     '.*?/changelog': 'https://cdn.jsdelivr.net/npm/docsify-themeable@0/CHANGELOG.md',
             // },
             auto2top   : false,
-            maxLevel   : 4,
-            subMaxLevel: 5,
+            // 最大在左侧目录里显示几级目录
+            maxLevel   : 1,
+            // 不对。。- 最多显示到 h几，如果 max=1, submax=3 表示如果文件里都是h3，则目录里会显示 h3 的标题，但只要多加一个 h1 或者 h2 的标题，则只显示该 h1 或者 h2 的目录，因为 max = 1 以最大标题优先。
+            subMaxLevel: 1,
 
             // PLUGINS
             // -----------------------------------------------------------------
             executeScript: true,
             // ga    : 'UA-153486679-2',
-            search: {
-                depth      : 5,
-                noData     : 'No results!',
-                placeholder: 'Search...'
+
+
+            // 优化 docsify 的 search 搜索功能 https://kebingzao.com/2020/09/30/docsify-search/
+            search: 'auto',
+            // search: {
+            //     depth      : 6,
+            //     noData     : 'No results!',
+            //     placeholder: 'Search...'
+            // },
+
+
+            toc: {
+                tocMaxLevel: 6,
+                target: 'h1, h2, h3, h4, h5, h6'
             },
+
+            // https://github.com/markbattistella/docsify-autoHeaders
+            autoHeaders: {
+              separator: 'decimal',
+              custom:    '-',
+              levels:    {
+                start:  '1',
+                finish: '5'
+              },
+              scope:     '#main',
+              debug:     false
+            },
+
+            // // https://github.com/HerbertHe/docsify-progress
+            // // 展示进度
+            // progress: {
+            //     position: "top",
+            //     color: "var(--theme-color,#42b983)",
+            //     height: "3px",
+            // },
 
             // {docsify-updated} 这个变量显示的格式
             formatUpdated: '{MM}.{DD}, {YYYY}',
 
-            // 可以使用相对路径 https://docsify.js.org/#/configuration?id=relativepath 
+            // 可以使用相对路径 https://docsify.js.org/#/configuration?id=relativepath
             // relativePath: true, 不要用这个,会使绝对路径失效
 
             markdown: {
@@ -105,6 +144,40 @@
                                 '<div class="mermaid">' + mermaid.render('mermaid-svg-' + num++, code) + "</div>"
                             );
                         }
+
+                        // 支持 pdf
+                        var pdf_renderer = function(code, lang, verify) {
+                            function unique_id_generator(){
+                                function rand_gen(){
+                                    return Math.floor((Math.random()+1) * 65536).toString(16).substring(1);
+                                }
+                                return rand_gen() + rand_gen() + '-' + rand_gen() + '-' + rand_gen() + '-' + rand_gen() + '-' + rand_gen() + rand_gen() + rand_gen();
+                            }
+                            if(lang && !lang.localeCompare('pdf', 'en', {sensitivity: 'base'})){
+                                if(verify){
+                                    return true;
+                                }else{
+                                    var divId = "markdown_code_pdf_container_" + unique_id_generator().toString();
+                                    var container_list = new Array();
+                                    if(localStorage.getItem('pdf_container_list')){
+                                        container_list = JSON.parse(localStorage.getItem('pdf_container_list'));
+                                    }
+                                    container_list.push({"pdf_location": code, "div_id": divId});
+                                    localStorage.setItem('pdf_container_list', JSON.stringify(container_list));
+                                    return (
+                                        '<div style="margin-top:'+ PDF_MARGIN_TOP +'; margin-bottom:'+ PDF_MARGIN_BOTTOM +';" id="'+ divId +'">'
+                                        + '<a href="'+ code + '"> Link </a> to ' + code +
+                                        '</div>'
+                                    );
+                                }
+                            }
+                            return false;
+                        }
+                        if(pdf_renderer(code, lang, true)){
+                            return pdf_renderer(code, lang, false);
+                        }
+
+
                         return this.origin.code.apply(this, arguments);
                     },
                 }
@@ -114,7 +187,7 @@
 
                 // tree 的效果是跳到该文件但不编辑，blob会自动编辑
                 // https://github.com/njleonzhang/docsify-edit-on-github
-                EditOnGithubPlugin.create('https://github.com/baicaihenxiao/Gitbook-Docsify-Template/tree/master/', null, function(file) {return 'Edit on GitHub'}),
+                EditOnGithubPlugin.create('https://gitee.com/baicaihenxiao/research/tree/master/', null, function(file) {return 'Edit on Gitee'}),
 
                 function(hook, vm) {
                   hook.init(function() {
@@ -153,6 +226,8 @@
               ]
         };
     </script>
+    <!-- header 增加编号 -->
+    <script src="https://cdn.jsdelivr.net/npm/@markbattistella/docsify-autoheaders@latest"></script>
     <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
 <!--    <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>-->
     <script src="https://cdn.jsdelivr.net/npm/docsify-copy-code@2"></script>
@@ -172,10 +247,23 @@
     <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-latex.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-git.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-yaml.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-json.min.js"></script>
     <!-- <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-javascript.min.js"></script> 原生支持，但要写javascript，不能JavaScript-->
 
+    <script src="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/marked@4"></script>
     <script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>
 
+    <!--    https://github.com/justintien/docsify-plugin-toc-->
+    <!--    <script src="//unpkg.com/docsify-plugin-toc"></script>-->
+    <script src="https://cdn.jsdelivr.net/npm/docsify-plugin-toc@1.2.1/dist/docsify-plugin-toc.min.js"></script>
+
+    <!--    https://github.com/lazypanda10117/docsify-pdf-embed     -->
+    <!-- PDFObject.js is a required dependency of this plugin -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/pdfobject/2.1.1/pdfobject.min.js"></script>
+    <!-- or use this if you are not hosting the file yourself -->
+<!--    <script src="//unpkg.com/docsify-pdf-embed-plugin/src/docsify-pdf-embed.js"></script>-->
+    <script src="https://cdn.jsdelivr.net/gh/lazypanda10117/docsify-pdf-embed@latest/src/docsify-pdf-embed.js"></script>
 
     <!-- Supports mermaid -->
     <!-- https://mermaid-js.github.io/mermaid/#/ -->

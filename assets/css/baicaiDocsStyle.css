@@ -2,3 +2,31 @@
 section.content {
   padding-top: 0px;
 }
+article.markdown-section {
+    max-width: 1200px;
+    /*margin-left: 50px;*/
+}
+
+.sidebar .sidebar-nav {
+  line-height: 1.3em;
+}
+
+.sidebar {
+  width: 300px;
+}
+body.close .sidebar {
+    transform: translateX(-400px);
+}
+/*:root {*/
+/*  !*--base-font-size: 14px;*!*/
+/*  --theme-color: #b0a4e3;*/
+/*}*/
+
+
+/* toc 插件 */
+aside.toc-nav {
+    overflow: auto !important;
+    width: 300px !important;
+    right: 0% !important;
+    max-height: 85% !important;
+}

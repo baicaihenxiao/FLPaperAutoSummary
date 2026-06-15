@@ -1,8 +1,10 @@
 - [Welcome](/README.md)
-- [➡️　GITBOOK VERSION](https://cser.gitbook.io/template/)
-- [➡️　DOCSIFY GITHUB VERSION](https://www.cser.club/Gitbook-Docsify-Template/#/)
-- [➡️　SUMMARY](https://github.com/baicaihenxiao/Gitbook-Docsify-Template/blob/master/SUMMARY.md)
 - [Contents](/SUMMARY.md)
+
+- **Papers**
+- [CCF Recommended Venues](/ccf.md)
+- [2025 TIFS FL All Papers](/2025/TIFS/2025-TIFS-FL-ALL.md)
+- [2025 TIFS FL Star Papers](/2025/TIFS/2025-TIFS-FL-Star.md)
 
 
 
@@ -28,11 +30,3 @@
 - [➡️　katex tables](https://docs.cser.club/#/docsify/katextables)
 - [➡️　Mermaid Live Editor](https://mermaid-js.github.io/mermaid-live-editor)
 - [➡️　Mermaid Examples](https://mermaid-js.github.io/mermaid/#/examples)
-
-
-- <hr>
-- **Me**
-* [Homepage](https://www.cser.club)
-* [GitHub](https://github.com/baicaihenxiao)
-* [docsify](http://docs.cser.club/)
-* [GitBook](http://note.cser.club/)
