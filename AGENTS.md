@@ -19,3 +19,13 @@ paper summary tables (for example, the Markdown files under `2025/`).
   `https://doi.org/10.1109/TIFS.2024.3484946`.
 - Use this canonical DOI form rather than publisher landing-page or DBLP links
   whenever a DOI is available.
+
+## Searching for Paper Info
+
+- When searching for paper info, you may fetch the venue URLs listed in
+  `ccf.md`. That file is the CCF recommended catalog of international
+  conferences and journals, organized by field and rank (A/B/C), and each entry
+  provides the venue abbreviation, full name, publisher, and an address URL
+  (usually a DBLP listing).
+- Use these URLs to look up a venue's DBLP page (to locate or verify a paper's
+  title, authors, year, and DOI) and to confirm the venue's CCF rank.
