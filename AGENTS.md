@@ -37,6 +37,7 @@ paper summary tables (for example, the Markdown files under `2025/`).
 
 - Use the date when the line is added to the table
 - The format is `MM/YYYY`, eg, `06/2026`
+- In the monthly update table such as `2026-06-updated-FL-ALL.md`, the format should be `DD/MM/YYYY`, eg, `15/06/2026`
 
 ## Searching for Paper Info
 
