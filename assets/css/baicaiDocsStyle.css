@@ -34,8 +34,8 @@ aside.toc-nav {
 
 /* ---------------------------------------------------------------------------
    Federated-learning paper summary tables: pin only the two columns that need
-   it — a wide "Short conclusion" and a narrow, wrapping "URL". Every other
-   column sizes itself automatically (the layout stays "auto").
+   it — a wide "Short conclusion" and a narrow, wrapping "URL". Switch these
+   tables to fixed layout so the explicit column widths are honored.
 
    The space-less DOI string in "URL" would otherwise force that column wide and
    squeeze "Short conclusion". Letting the URL wrap and giving the two columns a
@@ -53,8 +53,5 @@ aside.toc-nav {
 .markdown-section table:has(thead th:nth-child(10)) td {
   vertical-align: top;
 }
-.markdown-section table:has(thead th:nth-child(10)) tr > :nth-last-child(2) { width: 40%; } /* Short conclusion */
-.markdown-section table:has(thead th:nth-child(10)) tr > :last-child {
-  width: 1%;
-  /*word-break: break-all;   !* wrap the long DOI link instead of widening the column *!*/
-}
+.markdown-section table:has(thead th:nth-child(10)) tr > :nth-last-child(2) { width: 50% }
+.markdown-section table:has(thead th:nth-child(10)) td:not(:nth-last-child(2)):not(:nth-last-child(6)) { font-size: 12px }
