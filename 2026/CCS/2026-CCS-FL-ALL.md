@@ -2,7 +2,9 @@
 
 Star marker ⭐ indicates a privacy-preserving or robustness/security defense federated learning scheme. Pure attack, vulnerability, comment, or critique papers are not starred unless they also propose a defense scheme.
 
-Source: DBLP ACM Conference on Computer and Communications Security (2026). 
+Source: DBLP ACM Conference on Computer and Communications Security (2026).
+
+Status checked: 06/2026. DBLP has not published a CCS 2026 table of contents, and the official CCS 2026 site does not yet expose an accepted-papers/program page, so there are currently no verifiable federated learning papers to list.
 
 Total papers: 0
 
