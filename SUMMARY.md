@@ -3,16 +3,19 @@
 
 - **Papers**
 - [CCF Recommended Venues](/ccf.md)
-- [2025 TIFS FL All Papers](/2025/TIFS/2025-TIFS-FL-ALL.md)
-- [2025 TIFS FL Star Papers](/2025/TIFS/2025-TIFS-FL-Star.md)
-
+- <hr>
+- 2025
+- - TIFS
+- - - [2025 TIFS FL All Papers](/2025/TIFS/2025-TIFS-FL-ALL.md)
+- - - [2025 TIFS FL Star Papers](/2025/TIFS/2025-TIFS-FL-Star.md)
 
 
 
 
 
 - <hr>
-
+- 2026
+- - TIFS
 
 
 - <hr>
