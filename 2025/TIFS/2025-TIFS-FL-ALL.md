@@ -1,0 +1,10 @@
+# 2025-TIFS-Federated Learning All Paper Info
+
+Star marker `*` indicates a privacy-preserving or robustness/security defense federated learning scheme. Pure attack, vulnerability, comment, or critique papers are not starred unless they also propose a defense scheme.
+
+Total papers: 2
+
+| Star | Year | Venue | CCF | Title | Authors | Keywords | Topic | Short conclusion | URL |
+| :---: | :---: | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| * | 2025 | IEEE TIFS | CCF A journal | BlockFUL Enabling Unlearning in Blockchained Federated Learning | Xiao Liu; Mingyuan Li; Guangsheng Yu; Xu Wang; Wei Ni; Lixiang Li; Haipeng Peng; Ren Ping Liu | Machine unlearning, federated learning, dag, blockchain, privacy | privacy-oriented federated unlearning scheme | In this paper, we introduce Blockchained Federated Unlearning (BlockFUL), a novel framework with a dual-chain structure comprising a live chain and an archive chain for enabling unlearning capabilities within Blockchained FL. Our extensive experiments validate that these methods effectively reduce data dependency and operational overhead, thereby boosting the overall performance of unlearning inherited models within BlockFUL on CIFAR10 and Fashion-MNIST datasets using AlexNet, ResNet18, and MobileNetV2 models. | https://doi.org/10.1109/TIFS.2025.3583109 |
+|  | 2025 | IEEE TIFS | CCF A journal | Can We Trust the Similarity Measurement in Federated Learning | Zhilin Wang; Qin Hu; Xukai Zou; Pengfei Hu; Xiuzhen Cheng | Federated learning, poisoning attack, similarity | federated learning method or application | Experimental results based on seven datasets and eight defenses show that Faker outperforms the state-of-the-art benchmark attacks by 1.1-9.0X in reducing accuracy and 1.2-8.0X in saving time cost, which even holds for the case of a single malicious client with limited knowledge about the FL system. Lastly, we provide a model evaluation strategy, called the similarity of partial parameters (SPP), to defend against Faker. | https://doi.org/10.1109/TIFS.2024.3516567 |
