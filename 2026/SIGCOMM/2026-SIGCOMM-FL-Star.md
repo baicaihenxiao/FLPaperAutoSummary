@@ -8,5 +8,5 @@ Source: DBLP ACM International Conference on Applications, Technologies, Archite
 
 Total papers: 0
 
-| No. | Year | added date | Venue | CCF | Title | Authors | Keywords | Topic | Short conclusion | URL |
+| No. | Year | added date | Venue | CCF | Title | Authors | Keywords | Topic | Abstract | URL |
 | :---: | :---: | :---: | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |

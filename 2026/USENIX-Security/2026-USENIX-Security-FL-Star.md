@@ -8,5 +8,5 @@ Source: DBLP Usenix Security Symposium (2026).
 
 Total papers: 0
 
-| No. | Year | added date | Venue | CCF | Title | Authors | Keywords | Topic | Short conclusion | URL |
+| No. | Year | added date | Venue | CCF | Title | Authors | Keywords | Topic | Abstract | URL |
 | :---: | :---: | :---: | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |

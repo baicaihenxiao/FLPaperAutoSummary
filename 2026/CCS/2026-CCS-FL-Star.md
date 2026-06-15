@@ -10,5 +10,5 @@ Status checked: 06/2026. DBLP has not published a CCS 2026 table of contents, an
 
 Total papers: 0
 
-| No. | Year | added date | Venue | CCF | Title | Authors | Keywords | Topic | Short conclusion | URL |
+| No. | Year | added date | Venue | CCF | Title | Authors | Keywords | Topic | Abstract | URL |
 | :---: | :---: | :---: | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |

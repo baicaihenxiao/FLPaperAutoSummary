@@ -8,5 +8,5 @@ Source: DBLP International Conference on Computer Vision (2026).
 
 Total papers: 0
 
-| No. | Star | Year | added date | Venue | CCF | Title | Authors | Keywords | Topic | Short conclusion | URL |
+| No. | Star | Year | added date | Venue | CCF | Title | Authors | Keywords | Topic | Abstract | URL |
 | :---: | :---: | :---: | :---: | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
