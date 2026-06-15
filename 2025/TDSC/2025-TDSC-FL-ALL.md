@@ -2,7 +2,7 @@
 
 Star marker ⭐ indicates a privacy-preserving or robustness/security defense federated learning scheme. Pure attack, vulnerability, comment, or critique papers are not starred unless they also propose a defense scheme.
 
-Source: DBLP IEEE Transactions on Dependable and Secure Computing, Volume 22 (2025). Titles, authors, years, and DOI URLs are DBLP-derived; keywords, topics, and short conclusions are screening notes derived from the titles.
+Source: DBLP IEEE Transactions on Dependable and Secure Computing, Volume 22 (2025). 
 
 Total papers: 53
 

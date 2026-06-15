@@ -2,7 +2,7 @@
 
 This file lists papers marked with `*` in `2026-JMLR-FL-ALL.md`, meaning they propose or analyze a privacy-preserving, secure, robust, Byzantine-resilient, poisoning-defense, or related trustworthy federated learning scheme.
 
-Source: DBLP Journal of Machine Learning Research (2026). Titles, authors, years, and DOI URLs are DBLP-derived; keywords, topics, and short conclusions are screening notes derived from the titles.
+Source: DBLP Journal of Machine Learning Research (2026). 
 
 Total papers: 0
 

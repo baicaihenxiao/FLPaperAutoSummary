@@ -2,7 +2,7 @@
 
 This file lists papers marked with `*` in `2026-ICML-FL-ALL.md`, meaning they propose or analyze a privacy-preserving, secure, robust, Byzantine-resilient, poisoning-defense, or related trustworthy federated learning scheme.
 
-Source: DBLP International Conference on Machine Learning (2026). Titles, authors, years, and DOI URLs are DBLP-derived; keywords, topics, and short conclusions are screening notes derived from the titles.
+Source: DBLP International Conference on Machine Learning (2026). 
 
 Total papers: 0
 

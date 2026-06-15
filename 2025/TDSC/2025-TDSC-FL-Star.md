@@ -2,7 +2,7 @@
 
 This file lists papers marked with ⭐ in `2025-TDSC-FL-ALL.md`, meaning they propose or analyze a privacy-preserving, secure, robust, Byzantine-resilient, poisoning-defense, or related trustworthy federated learning scheme.
 
-Source: DBLP IEEE Transactions on Dependable and Secure Computing, Volume 22 (2025). Titles, authors, years, and DOI URLs are DBLP-derived; keywords, topics, and short conclusions are screening notes derived from the titles.
+Source: DBLP IEEE Transactions on Dependable and Secure Computing, Volume 22 (2025). 
 
 Total papers: 44
 

@@ -2,7 +2,7 @@
 
 Star marker ⭐ indicates a privacy-preserving or robustness/security defense federated learning scheme. Pure attack, vulnerability, comment, or critique papers are not starred unless they also propose a defense scheme.
 
-Source: DBLP AAAI Conference on Artificial Intelligence (2026). Titles, authors, years, and DOI URLs are DBLP-derived; keywords, topics, and short conclusions are screening notes derived from the titles.
+Source: DBLP AAAI Conference on Artificial Intelligence (2026). 
 
 Total papers: 0
 
