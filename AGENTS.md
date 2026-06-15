@@ -20,7 +20,7 @@ paper summary tables (for example, the Markdown files under `2025/`).
   `https://doi.org/10.1109/TIFS.2024.3484946`.
 - Use this canonical DOI form rather than publisher landing-page or DBLP links
   whenever a DOI is available.
-- Use `[➡️](url)` markdown link format instead of plain DOI URL strings
+- Use `[➡️](url)` Markdown link format instead of plain DOI URL strings
 
 ### `added date` column
 
