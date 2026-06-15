@@ -187,7 +187,8 @@
 
                 // tree 的效果是跳到该文件但不编辑，blob会自动编辑
                 // https://github.com/njleonzhang/docsify-edit-on-github
-                EditOnGithubPlugin.create('https://gitee.com/baicaihenxiao/research/tree/master/', null, function(file) {return 'Edit on Gitee'}),
+                // EditOnGithubPlugin.create('https://gitee.com/baicaihenxiao/research/tree/master/', null, function(file) {return 'Edit on Gitee'}),
+                EditOnGithubPlugin.create('https://github.com/baicaihenxiao/FLPaperAutoSummary/tree/main/', null, function(file) {return 'Edit on GitHub'}),
 
                 function(hook, vm) {
                   hook.init(function() {
