@@ -1,6 +1,7 @@
 - [Welcome](/README.md)
 - [Contents](/SUMMARY.md)
 
+- <hr>
 - **Papers**
 - [CCF Recommended Venues](/ccf.md)
 - <hr>
