@@ -15,8 +15,22 @@ article.markdown-section {
 .sidebar {
   width: 300px;
 }
-body.close .sidebar {
-    transform: translateX(-400px);
+
+@media screen and (min-width: 769px) {
+  body.close .sidebar {
+    transform: translateX(-300px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body.close .sidebar {
+    transform: translateX(300px);
+  }
+
+  article.markdown-section {
+    max-width: 100%;
+    margin-left: 0;
+  }
 }
 /*:root {*/
 /*  !*--base-font-size: 14px;*!*/
