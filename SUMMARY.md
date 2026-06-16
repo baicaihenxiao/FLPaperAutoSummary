@@ -1,5 +1,6 @@
 - [Welcome](/README.md)
 - [Contents](/SUMMARY.md)
+- [Syntax](/Syntax.md)
 
 - <hr>
 - [CCF](/ccf.md)
