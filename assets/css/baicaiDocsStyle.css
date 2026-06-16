@@ -53,5 +53,14 @@ aside.toc-nav {
 .markdown-section table:has(thead th:nth-child(10)) td {
   vertical-align: top;
 }
-.markdown-section table:has(thead th:nth-child(10)) tr > :nth-last-child(5) { width: 70% }
+.markdown-section table:has(thead th:nth-child(10)) tr > :nth-last-child(5) {
+  width: 70%;
+}
+.markdown-section table:has(thead th:nth-child(10)) thead tr > :nth-last-child(5) {
+  text-align: center;
+  vertical-align: middle;
+}
+.markdown-section table:has(thead th:nth-child(10)) tbody tr > :nth-last-child(5) {
+  text-align: left;
+}
 .markdown-section table:has(thead th:nth-child(10)) td:not(:nth-last-child(2)):not(:nth-last-child(5)) { font-size: 12px }
