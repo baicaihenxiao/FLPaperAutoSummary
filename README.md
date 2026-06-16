@@ -5,8 +5,14 @@ use AI to fetch federated learning paper basic info from CCF A rank journals and
 
 重点关注以下 Venue：TIFS, TDSC, TMC, INFOCOM, WWW, TSC
 
+## Project URL
+
+> * <https://baicaihenxiao.github.io/FLPaperAutoSummary/>
+> * <http://fl.cser.site/>
+
+
 ## AboutMe
-> * [GitHub](https://github.com/baicaihenxiao)
+> [GitHub](https://github.com/baicaihenxiao)
 
 ## Reference
 
