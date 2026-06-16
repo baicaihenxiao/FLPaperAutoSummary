@@ -15,6 +15,9 @@
 - - TDSC
 - - - [2025 TDSC FL All Papers](/2025/TDSC/2025-TDSC-FL-ALL.md)
 - - - [2025 TDSC FL Star Papers](/2025/TDSC/2025-TDSC-FL-Star.md)
+- - CCS
+- - - [2025 CCS FL All Papers](/2025/CCS/2025-CCS-FL-ALL.md)
+- - - [2025 CCS FL Star Papers](/2025/CCS/2025-CCS-FL-Star.md)
 - - USENIX Security
 - - - [2025 USENIX Security FL All Papers](/2025/USENIX-Security/2025-USENIX-Security-FL-ALL.md)
 - - - [2025 USENIX Security FL Star Papers](/2025/USENIX-Security/2025-USENIX-Security-FL-Star.md)
