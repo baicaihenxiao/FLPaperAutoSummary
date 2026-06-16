@@ -4,15 +4,16 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no, viewport-fit=cover">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no, viewport-fit=cover">
     <title>FLPaperAutoSummary -baicaihenxiao</title>
 
-            <!-- Test Stylesheets -->
+    <!-- Test Stylesheets -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/themes/vue.css">
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/themes/buble.css"> -->
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/themes/dark.css"> -->
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/themes/pure.css"> -->
-        <!-- Alternate Stylesheets -->
+    <!-- Alternate Stylesheets -->
     <!-- <link rel="stylesheet alternate" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-defaults.css" title="Defaults"> -->
     <!-- <link rel="stylesheet alternate" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css" title="Simple Dark"> -->
 
@@ -21,17 +22,15 @@
     <link rel="stylesheet" href="./assets/css/baicaiDocsStyle.css">
 
 
-     <link rel="shortcut icon" type="image/jpg" href="./assets/icon/luxun.jpg">
-<!--    <link rel="shortcut icon" type="image/jpg" href="https://gitee.com/baicaihenxiao/imageDB/raw/master/luxun.jpg">-->
+    <link rel="shortcut icon" type="image/jpg" href="./assets/icon/luxun.jpg">
+    <!--    <link rel="shortcut icon" type="image/jpg" href="https://gitee.com/baicaihenxiao/imageDB/raw/master/luxun.jpg">-->
 
 
     <!-- https://github.com/upupming/docsify-katex -->
-        <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css"/>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css"/>
 
 
-
-
-        <!-- support math latex -->
+    <!-- support math latex -->
     <!--     <script type="text/x-mathjax-config">
           MathJax.Hub.Config({
             tex2jax: {
@@ -45,237 +44,241 @@
 </head>
 
 <body>
-    <div id="app"></div>
+<div id="app"></div>
 
-    <!-- github 编辑   https://github.com/njleonzhang/docsify-edit-on-github -->
+<!-- github 编辑   https://github.com/njleonzhang/docsify-edit-on-github -->
 <!--    <script src="//unpkg.com/docsify-edit-on-github/index.js"></script>-->
-    <script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github"></script>
+<script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github"></script>
 <!--    &lt;!&ndash; https://github.com/HerbertHe/docsify-progress &ndash;&gt;-->
 <!--    <script src="https://cdn.jsdelivr.net/npm/docsify-progress@latest/dist/progress.min.js"></script>-->
 
-    <!-- JavaScript -->
-    <script>
-        // Docsify
-        window.$docsify = {
-            // GENERAL
-            // -----------------------------------------------------------------
-            name       : 'FLPaperAutoSummary',
-            // repo       : 'https://github.com/baicaihenxiao', 注释掉这个可以去掉右上角的github corner
-            // logo: '/assets/icon/luxun.jpg',
-            // coverpage  : 'coverpage.md',
-            homepage   : 'README.md',
-            loadSidebar: 'SUMMARY.md',
+<!-- JavaScript -->
+<script>
+    // Docsify
+    window.$docsify = {
+        // GENERAL
+        // -----------------------------------------------------------------
+        name: 'FLPaperAutoSummary',
+        // repo       : 'https://github.com/baicaihenxiao', 注释掉这个可以去掉右上角的github corner
+        // logo: '/assets/icon/luxun.jpg',
+        // coverpage  : 'coverpage.md',
+        homepage: 'README.md',
+        loadSidebar: 'SUMMARY.md',
 
-            // 主题颜色
-            themeColor: '#b0a4e3',
+        // 主题颜色
+        themeColor: '#b0a4e3',
 
-            // NAVIGATION
-            // -----------------------------------------------------------------
-            // alias: {
-            //     '.*?/changelog': 'https://cdn.jsdelivr.net/npm/docsify-themeable@0/CHANGELOG.md',
-            // },
-            auto2top   : false,
-            // 最大在左侧目录里显示几级目录
-            maxLevel   : 1,
-            // 不对。。- 最多显示到 h几，如果 max=1, submax=3 表示如果文件里都是h3，则目录里会显示 h3 的标题，但只要多加一个 h1 或者 h2 的标题，则只显示该 h1 或者 h2 的目录，因为 max = 1 以最大标题优先。
-            subMaxLevel: 1,
+        // NAVIGATION
+        // -----------------------------------------------------------------
+        // alias: {
+        //     '.*?/changelog': 'https://cdn.jsdelivr.net/npm/docsify-themeable@0/CHANGELOG.md',
+        // },
+        auto2top: false,
+        // 最大在左侧目录里显示几级目录
+        maxLevel: 1,
+        // 不对。。- 最多显示到 h几，如果 max=1, submax=3 表示如果文件里都是h3，则目录里会显示 h3 的标题，但只要多加一个 h1 或者 h2 的标题，则只显示该 h1 或者 h2 的目录，因为 max = 1 以最大标题优先。
+        subMaxLevel: 1,
 
-            // PLUGINS
-            // -----------------------------------------------------------------
-            executeScript: true,
-            // ga    : 'UA-153486679-2',
-
-
-            // 优化 docsify 的 search 搜索功能 https://kebingzao.com/2020/09/30/docsify-search/
-            search: 'auto',
-            // search: {
-            //     depth      : 6,
-            //     noData     : 'No results!',
-            //     placeholder: 'Search...'
-            // },
+        // PLUGINS
+        // -----------------------------------------------------------------
+        executeScript: true,
+        // ga    : 'UA-153486679-2',
 
 
-            toc: {
-                tocMaxLevel: 6,
-                target: 'h1, h2, h3, h4, h5, h6'
-            },
+        // 优化 docsify 的 search 搜索功能 https://kebingzao.com/2020/09/30/docsify-search/
+        search: 'auto',
+        // search: {
+        //     depth      : 6,
+        //     noData     : 'No results!',
+        //     placeholder: 'Search...'
+        // },
 
-            // https://github.com/markbattistella/docsify-autoHeaders
-            autoHeaders: {
-              separator: 'decimal',
-              custom:    '-',
-              levels:    {
-                start:  '1',
+
+        toc: {
+            tocMaxLevel: 6,
+            target: 'h1, h2, h3, h4, h5, h6'
+        },
+
+        // https://github.com/markbattistella/docsify-autoHeaders
+        autoHeaders: {
+            separator: 'decimal',
+            custom: '-',
+            levels: {
+                start: '1',
                 finish: '5'
-              },
-              scope:     '#main',
-              debug:     false
             },
+            scope: '#main',
+            debug: false
+        },
 
-            // // https://github.com/HerbertHe/docsify-progress
-            // // 展示进度
-            // progress: {
-            //     position: "top",
-            //     color: "var(--theme-color,#42b983)",
-            //     height: "3px",
-            // },
+        // // https://github.com/HerbertHe/docsify-progress
+        // // 展示进度
+        // progress: {
+        //     position: "top",
+        //     color: "var(--theme-color,#42b983)",
+        //     height: "3px",
+        // },
 
-            // {docsify-updated} 这个变量显示的格式
-            formatUpdated: '{MM}.{DD}, {YYYY}',
+        // {docsify-updated} 这个变量显示的格式
+        formatUpdated: '{MM}.{DD}, {YYYY}',
 
-            // 可以使用相对路径 https://docsify.js.org/#/configuration?id=relativepath
-            // relativePath: true, 不要用这个,会使绝对路径失效
+        // 可以使用相对路径 https://docsify.js.org/#/configuration?id=relativepath
+        // relativePath: true, 不要用这个,会使绝对路径失效
 
-            markdown: {
-                // https://marked.js.org/#/USING_PRO.md#renderer
-                renderer: {
-                    // image: function(href, title) {
-                    //     return `<img src="${href}" data-origin="${href}" alt="${title}">`
-                    // },
-                    // html: function(html) {
-                    //     return `${html} 1`
-                    // },
-                    // paragraph: function(text) {
-                    //     return 'sdfa {text}'
-                    // }
-                    code: function(code, lang) {
-                        if (lang === "mermaid") {
-                            return (
-                                '<div class="mermaid">' + mermaid.render('mermaid-svg-' + num++, code) + "</div>"
-                            );
-                        }
+        markdown: {
+            // https://marked.js.org/#/USING_PRO.md#renderer
+            renderer: {
+                // image: function(href, title) {
+                //     return `<img src="${href}" data-origin="${href}" alt="${title}">`
+                // },
+                // html: function(html) {
+                //     return `${html} 1`
+                // },
+                // paragraph: function(text) {
+                //     return 'sdfa {text}'
+                // }
+                code: function (code, lang) {
+                    if (lang === "mermaid") {
+                        return (
+                            '<div class="mermaid">' + mermaid.render('mermaid-svg-' + num++, code) + "</div>"
+                        );
+                    }
 
-                        // 支持 pdf
-                        var pdf_renderer = function(code, lang, verify) {
-                            function unique_id_generator(){
-                                function rand_gen(){
-                                    return Math.floor((Math.random()+1) * 65536).toString(16).substring(1);
-                                }
-                                return rand_gen() + rand_gen() + '-' + rand_gen() + '-' + rand_gen() + '-' + rand_gen() + '-' + rand_gen() + rand_gen() + rand_gen();
+                    // 支持 pdf
+                    var pdf_renderer = function (code, lang, verify) {
+                        function unique_id_generator() {
+                            function rand_gen() {
+                                return Math.floor((Math.random() + 1) * 65536).toString(16).substring(1);
                             }
-                            if(lang && !lang.localeCompare('pdf', 'en', {sensitivity: 'base'})){
-                                if(verify){
-                                    return true;
-                                }else{
-                                    var divId = "markdown_code_pdf_container_" + unique_id_generator().toString();
-                                    var container_list = new Array();
-                                    if(localStorage.getItem('pdf_container_list')){
-                                        container_list = JSON.parse(localStorage.getItem('pdf_container_list'));
-                                    }
-                                    container_list.push({"pdf_location": code, "div_id": divId});
-                                    localStorage.setItem('pdf_container_list', JSON.stringify(container_list));
-                                    return (
-                                        '<div style="margin-top:'+ PDF_MARGIN_TOP +'; margin-bottom:'+ PDF_MARGIN_BOTTOM +';" id="'+ divId +'">'
-                                        + '<a href="'+ code + '"> Link </a> to ' + code +
-                                        '</div>'
-                                    );
+
+                            return rand_gen() + rand_gen() + '-' + rand_gen() + '-' + rand_gen() + '-' + rand_gen() + '-' + rand_gen() + rand_gen() + rand_gen();
+                        }
+
+                        if (lang && !lang.localeCompare('pdf', 'en', {sensitivity: 'base'})) {
+                            if (verify) {
+                                return true;
+                            } else {
+                                var divId = "markdown_code_pdf_container_" + unique_id_generator().toString();
+                                var container_list = new Array();
+                                if (localStorage.getItem('pdf_container_list')) {
+                                    container_list = JSON.parse(localStorage.getItem('pdf_container_list'));
                                 }
+                                container_list.push({"pdf_location": code, "div_id": divId});
+                                localStorage.setItem('pdf_container_list', JSON.stringify(container_list));
+                                return (
+                                    '<div style="margin-top:' + PDF_MARGIN_TOP + '; margin-bottom:' + PDF_MARGIN_BOTTOM + ';" id="' + divId + '">'
+                                    + '<a href="' + code + '"> Link </a> to ' + code +
+                                    '</div>'
+                                );
                             }
-                            return false;
                         }
-                        if(pdf_renderer(code, lang, true)){
-                            return pdf_renderer(code, lang, false);
-                        }
+                        return false;
+                    }
+                    if (pdf_renderer(code, lang, true)) {
+                        return pdf_renderer(code, lang, false);
+                    }
 
 
-                        return this.origin.code.apply(this, arguments);
-                    },
-                }
-            },
+                    return this.origin.code.apply(this, arguments);
+                },
+            }
+        },
 
-            plugins: [
+        plugins: [
 
-                // tree 的效果是跳到该文件但不编辑，blob会自动编辑
-                // https://github.com/njleonzhang/docsify-edit-on-github
-                // EditOnGithubPlugin.create('https://gitee.com/baicaihenxiao/research/tree/master/', null, function(file) {return 'Edit on Gitee'}),
-                EditOnGithubPlugin.create('https://github.com/baicaihenxiao/FLPaperAutoSummary/tree/main/', null, function(file) {return 'Edit on GitHub'}),
+            // tree 的效果是跳到该文件但不编辑，blob会自动编辑
+            // https://github.com/njleonzhang/docsify-edit-on-github
+            // EditOnGithubPlugin.create('https://gitee.com/baicaihenxiao/research/tree/master/', null, function(file) {return 'Edit on Gitee'}),
+            EditOnGithubPlugin.create('https://github.com/baicaihenxiao/FLPaperAutoSummary/tree/main/', null, function (file) {
+                return 'Edit on GitHub'
+            }),
 
-                function(hook, vm) {
-                  hook.init(function() {
+            function (hook, vm) {
+                hook.init(function () {
                     // Called when the script starts running, only trigger once, no arguments,
-                  });
+                });
 
-                  hook.beforeEach(function(content) {
+                hook.beforeEach(function (content) {
                     // Invoked each time before parsing the Markdown file.
                     // ...
                     return content + '\n\n----\n\n' + '<p style="color: inherit; font-weight: normal; text-decoration: none; color: #828282;">Last updated <b>{docsify-updated}</b></p>';
 
-                     //每一个页面添加底部license，不好看就不加了 + '<p style="font-size:12px;text-align: center;color: #828282;"><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/3.0/88x31.png" /></a><br/> The content of this site is licensed under the <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License</a></p>';
-                  });
+                    //每一个页面添加底部license，不好看就不加了 + '<p style="font-size:12px;text-align: center;color: #828282;"><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/3.0/88x31.png" /></a><br/> The content of this site is licensed under the <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License</a></p>';
+                });
 
-                  hook.afterEach(function(html, next) {
+                hook.afterEach(function (html, next) {
                     // Invoked each time after the Markdown file is parsed.
                     // beforeEach and afterEach support asynchronous。
                     // ...
                     // call `next(html)` when task is done.
                     next(html);
-                  });
+                });
 
-                  hook.doneEach(function() {
+                hook.doneEach(function () {
                     // Invoked each time after the data is fully loaded, no arguments,
                     // ...
-                  });
+                });
 
-                  hook.mounted(function() {
+                hook.mounted(function () {
                     // Called after initial completion. Only trigger once, no arguments.
-                  });
+                });
 
-                  hook.ready(function() {
+                hook.ready(function () {
                     // Called after initial completion, no arguments.
-                  });
-                }
-              ]
-        };
-    </script>
-    <!-- header 增加编号 -->
-    <script src="https://cdn.jsdelivr.net/npm/@markbattistella/docsify-autoheaders@latest"></script>
-    <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+                });
+            }
+        ]
+    };
+</script>
+<!-- header 增加编号 -->
+<script src="https://cdn.jsdelivr.net/npm/@markbattistella/docsify-autoheaders@latest"></script>
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
 <!--    <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>-->
-    <script src="https://cdn.jsdelivr.net/npm/docsify-copy-code@2"></script>
-    <!-- 使用分页 https://github.com/imyelo/docsify-pagination <script src="https://cdn.jsdelivr.net/npm/docsify-pagination@2/dist/docsify-pagination.min.js"></script> -->
-    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/external-script.min.js"></script>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/ga.min.js"></script> -->
-    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/docsify-copy-code@2"></script>
+<!-- 使用分页 https://github.com/imyelo/docsify-pagination <script src="https://cdn.jsdelivr.net/npm/docsify-pagination@2/dist/docsify-pagination.min.js"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/external-script.min.js"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/ga.min.js"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
 
-    <!-- highlight codes 其他语言参考 https://github.com/PrismJS/prism/tree/gh-pages/components -->
-    <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-java.min.js"></script>
-    <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-c.min.js"></script>
-    <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-cpp.min.js"></script>
-    <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-csharp.min.js"></script>
-    <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-python.min.js"></script>
-    <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-markdown.min.js"></script>
-    <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-latex.min.js"></script>
-    <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-git.min.js"></script>
-    <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-yaml.min.js"></script>
-    <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-json.min.js"></script>
-    <!-- <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-javascript.min.js"></script> 原生支持，但要写javascript，不能JavaScript-->
+<!-- highlight codes 其他语言参考 https://github.com/PrismJS/prism/tree/gh-pages/components -->
+<script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-java.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-c.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-cpp.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-csharp.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-python.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-markdown.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-latex.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-git.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-yaml.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-json.min.js"></script>
+<!-- <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-javascript.min.js"></script> 原生支持，但要写javascript，不能JavaScript-->
 
-    <script src="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
-    <script src="//cdn.jsdelivr.net/npm/marked@4"></script>
-    <script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>
+<script src="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/marked@4"></script>
+<script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>
 
-    <!--    https://github.com/justintien/docsify-plugin-toc-->
-    <!--    <script src="//unpkg.com/docsify-plugin-toc"></script>-->
+<!--    https://github.com/justintien/docsify-plugin-toc-->
+<!--    <script src="//unpkg.com/docsify-plugin-toc"></script>-->
 <!--    <script src="https://cdn.jsdelivr.net/npm/docsify-plugin-toc@1.2.1/dist/docsify-plugin-toc.min.js"></script>-->
 
-    <!--    https://github.com/lazypanda10117/docsify-pdf-embed     -->
-    <!-- PDFObject.js is a required dependency of this plugin -->
-    <script src="//cdnjs.cloudflare.com/ajax/libs/pdfobject/2.1.1/pdfobject.min.js"></script>
-    <!-- or use this if you are not hosting the file yourself -->
+<!--    https://github.com/lazypanda10117/docsify-pdf-embed     -->
+<!-- PDFObject.js is a required dependency of this plugin -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/pdfobject/2.1.1/pdfobject.min.js"></script>
+<!-- or use this if you are not hosting the file yourself -->
 <!--    <script src="//unpkg.com/docsify-pdf-embed-plugin/src/docsify-pdf-embed.js"></script>-->
-    <script src="https://cdn.jsdelivr.net/gh/lazypanda10117/docsify-pdf-embed@latest/src/docsify-pdf-embed.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/lazypanda10117/docsify-pdf-embed@latest/src/docsify-pdf-embed.js"></script>
 
-    <!-- Supports mermaid -->
-    <!-- https://mermaid-js.github.io/mermaid/#/ -->
-    <script src="//cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
-    <!-- https://github.com/Leward/mermaid-docsify -->
-    <!--    <script src="//unpkg.com/mermaid/dist/mermaid.js"></script>-->
+<!-- Supports mermaid -->
+<!-- https://mermaid-js.github.io/mermaid/#/ -->
+<script src="//cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<!-- https://github.com/Leward/mermaid-docsify -->
+<!--    <script src="//unpkg.com/mermaid/dist/mermaid.js"></script>-->
 <!--    <script src="//unpkg.com/docsify-mermaid@latest/dist/docsify-mermaid.js"></script>-->
-    <script>
-        var num = 0;
-        mermaid.initialize({ startOnLoad: false });
-    </script>
+<script>
+    var num = 0;
+    mermaid.initialize({startOnLoad: false});
+</script>
 
 </body>
 </html>
