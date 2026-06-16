@@ -23,6 +23,9 @@
 - - TMC
 - - - [2025 TMC FL All Papers](/2025/TMC/2025-TMC-FL-ALL.md)
 - - - [2025 TMC FL Star Papers](/2025/TMC/2025-TMC-FL-Star.md)
+- - TSC
+- - - [2025 TSC FL All Papers](/2025/TSC/2025-TSC-FL-ALL.md)
+- - - [2025 TSC FL Star Papers](/2025/TSC/2025-TSC-FL-Star.md)
 
 
 
