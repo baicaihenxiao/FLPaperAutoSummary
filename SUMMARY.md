@@ -27,6 +27,9 @@
 - - TSC
 - - - [2025 TSC FL All Papers](/2025/TSC/2025-TSC-FL-ALL.md)
 - - - [2025 TSC FL Star Papers](/2025/TSC/2025-TSC-FL-Star.md)
+- - WWW
+- - - [2025 WWW FL All Papers](/2025/WWW/2025-WWW-FL-ALL.md)
+- - - [2025 WWW FL Star Papers](/2025/WWW/2025-WWW-FL-Star.md)
 
 
 
