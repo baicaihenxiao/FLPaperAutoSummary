@@ -1,19 +1,16 @@
 # FLPaperAutoSummary
 use AI to fetch federated learning paper basic info from CCF A rank journals and conferences.
 
-<p class="icon notice" markdown="1"> 不要在表格中的最后两列中间或者后面插入新列，因为 baicaiDocsStyle.css 中设置了最后两列的宽度 </p>
+<p class="icon notice" markdown="1"> baicaiDocsStyle.css 中设置了倒数第 5 列的宽度，所以不要在后面插入新列。 </p>
 
+重点关注以下 Venue：TIFS, TDSC, TMC, INFOCOM, WWW, TSC
 
 ## AboutMe
-
-> * [Homepage](https://www.cser.club)
 > * [GitHub](https://github.com/baicaihenxiao)
-> * [docsify](http://docs.cser.club/)
-> * [GitBook](http://note.cser.club/)
 
 ## Reference
 
-> Powered by [**docsify**](https://docsify.js.org/#/) & [**GitBook**](https://www.gitbook.com/).
+> Powered by [**docsify**](https://docsify.js.org/#/)
 
 ## License
 
