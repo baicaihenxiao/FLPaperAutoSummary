@@ -17,6 +17,9 @@
 - - USENIX Security
 - - - [2025 USENIX Security FL All Papers](/2025/USENIX-Security/2025-USENIX-Security-FL-ALL.md)
 - - - [2025 USENIX Security FL Star Papers](/2025/USENIX-Security/2025-USENIX-Security-FL-Star.md)
+- - INFOCOM
+- - - [2025 INFOCOM FL All Papers](/2025/INFOCOM/2025-INFOCOM-FL-ALL.md)
+- - - [2025 INFOCOM FL Star Papers](/2025/INFOCOM/2025-INFOCOM-FL-Star.md)
 
 
 
