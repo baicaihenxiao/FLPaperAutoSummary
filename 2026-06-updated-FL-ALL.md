@@ -2,9 +2,31 @@
 
 Star marker ⭐ indicates a privacy-preserving or robustness/security defense federated learning scheme. Pure attack, vulnerability, comment, or critique papers are not starred unless they also propose a defense scheme.
 
-In this table, only focus paper published in TIFS, TDSC, TMC, INFOCOM, WWW, TSC.
+In this table, only focus on latest papers published in TIFS, TDSC, TMC, INFOCOM, WWW, TSC, USENIX Security.
 
-Total papers: 15
+
+## Change Log
+
+- 16/06/2026: Added 15 papers, 2 starred.
+  - `Robust Federated Learning With Double Denoising`
+  - `Towards Generalization Fairness in Federated Learning`
+  - `⭐ Adaptive Quantization and Differential Privacy Federated Learning Framework`
+  - `Missingness-aware Federated Contrastive Learning on Semantic Graphs`
+  - `FedMHO: Heterogeneous One-Shot Federated Learning Towards Resource-Constrained Clients`
+  - `FedMeld: A Model-Dispersal Federated Learning Framework for Space-Ground Integrated Networks`
+  - `Soft-Label Caching and Sharpening for Communication-Efficient Federated Distillation`
+  - `A Federated Adaptive Large Language Model Fine-Tuning Framework for Software Development`
+  - `KE-FedRS: Tackling Data Sparsity in Federated Recommendation via Knowledge Enhancement`
+  - `Prototype-Aligned Federated Soft-Prompts for Continual Web Personalization`
+  - `⭐ Lightweight Federated Learning with Differential Privacy and Straggler Resilience`
+  - `Constrained Over-the-Air Model Updating for Wireless Online Federated Learning with Delayed Information`
+  - `CARE: Compatibility-Aware Incentive Mechanisms for Federated Learning with Budgeted Requesters`
+  - `Participation-Dependent Privacy Preservation in Cross-Silo Federated Learning`
+  - `PromptFL: Let Federated Participants Cooperatively Learn Prompts Instead of Models - Federated Learning in Age of Foundation Model`
+
+
+
+## Starred/Total papers: 2 / 15.
 
 | No. | Star | Year | added date | Venue | CCF | Title & Abstract | Authors | Keywords | Topic | URL |
 |:---:| :---: | :---: |:----------:| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
