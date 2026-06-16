@@ -214,13 +214,34 @@
                     next(html);
                 });
 
+                function wrapScrollableTables() {
+                    document.querySelectorAll('.markdown-section table').forEach(function (table) {
+                        var headerCount = table.tHead ? table.tHead.querySelectorAll('th').length : 0;
+
+                        // if (headerCount < 10) {
+                        //     return;
+                        // }
+
+                        if (table.parentElement && table.parentElement.classList.contains('table-scroll-y')) {
+                            return;
+                        }
+
+                        var wrapper = document.createElement('div');
+                        wrapper.className = 'table-scroll-y';
+                        table.parentNode.insertBefore(wrapper, table);
+                        wrapper.appendChild(table);
+                    });
+                }
+
                 hook.doneEach(function () {
                     // Invoked each time after the data is fully loaded, no arguments,
                     // ...
+                    wrapScrollableTables();
                 });
 
                 hook.mounted(function () {
                     // Called after initial completion. Only trigger once, no arguments.
+                    wrapScrollableTables();
                 });
 
                 hook.ready(function () {

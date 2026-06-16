@@ -59,6 +59,20 @@ aside.toc-nav {
    columns), so the 5-column ccf.md table is left alone; browsers without :has()
    ignore the block. "Short conclusion" and "URL" are always the last two
    columns, so they're addressed from the right. Tweak the two widths to taste. */
+.table-scroll-y {
+  width: 100%;
+  max-width: 100%;
+  /*max-height: 75vh;*/
+  margin: 1em 0;
+  /*overflow-y: auto;*/
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.table-scroll-y > table {
+  margin: 0;
+}
+
 .markdown-section table:has(thead th:nth-child(10)) {
   display: table;   /* override docsify's display:block so width:100% and % widths apply */
   width: 100%;
