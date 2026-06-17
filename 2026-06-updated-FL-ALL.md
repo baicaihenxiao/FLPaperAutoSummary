@@ -8,56 +8,56 @@ In this table, only focus on latest papers published in TIFS, TDSC, TMC, INFOCOM
 ## Change Log
 
 - 17/06/2026: Added 18 papers, 10 starred.
- - `HEFLGuard: Backdoor Detection in Homomorphic Encryption-Based Federated Learning`
- - `Safeguarding Federated Learning From Data Reconstruction Attacks via Gradient Dropout`
- - `Frequency-Domain Signatures for Proactive Defense Against Model Poisoning Attacks in Federated Learning`
- - `Sanitizer: Blazing-Fast, Private, and Robust Federated Learning`
- - `DeSA: Decentralized Secure Aggregation for Federated Learning in Zero-Trust D2D Networks`
- - `Verifiable Private Federated Learning Achieving Low-Communication With CUR Decomposition`
- - `FreeFL: Privacy-Preserving Cross-Silo Federated Learning Without Third Party`
- - `BPFLH: Byzantine-Robust Privacy-Preserving Federated Learning for Heterogeneous Data`
- - `Robust Privacy-Preserving Federated Learning for Edge Computing With New Client Integration`
- - `Federated Learning in the Shuffle Model of Differential Privacy: A Communication-Efficient and Maliciously Secure Realization`
- - `Tackling Spatial-Temporal Heterogeneous Federated Learning With Orthogonal Regularization`
- - `Toward Efficient and Scalable Asynchronous Federated Learning via Stragglers Version Control`
- - `MAIR: Model Agnostic Instance Reweighing for Heterogeneous Federated Learning`
- - `FedRGL: Federated Riemannian Graph Learning in Mixed-Curvature Spaces with Ricci-Gated Convolution`
- - `Thorki: Decoupling General and Personalized Knowledge with Collaborative Fusion for Personalized Federated Learning`
- - `FedSRD: Sparsify-Reconstruct-Decompose for Communication-Efficient Federated Large Language Models Fine-Tuning`
- - `WinFLoRA: Incentivizing Client-Adaptive Aggregation in Federated LoRA under Privacy Heterogeneity`
- - `RAFed: Responsive Augmentation and Approximate Update Method for Federated Learning with Non-IID Data`
+  - `HEFLGuard: Backdoor Detection in Homomorphic Encryption-Based Federated Learning`
+  - `Safeguarding Federated Learning From Data Reconstruction Attacks via Gradient Dropout`
+  - `Frequency-Domain Signatures for Proactive Defense Against Model Poisoning Attacks in Federated Learning`
+  - `Sanitizer: Blazing-Fast, Private, and Robust Federated Learning`
+  - `DeSA: Decentralized Secure Aggregation for Federated Learning in Zero-Trust D2D Networks`
+  - `Verifiable Private Federated Learning Achieving Low-Communication With CUR Decomposition`
+  - `FreeFL: Privacy-Preserving Cross-Silo Federated Learning Without Third Party`
+  - `BPFLH: Byzantine-Robust Privacy-Preserving Federated Learning for Heterogeneous Data`
+  - `Robust Privacy-Preserving Federated Learning for Edge Computing With New Client Integration`
+  - `Federated Learning in the Shuffle Model of Differential Privacy: A Communication-Efficient and Maliciously Secure Realization`
+  - `Tackling Spatial-Temporal Heterogeneous Federated Learning With Orthogonal Regularization`
+  - `Toward Efficient and Scalable Asynchronous Federated Learning via Stragglers Version Control`
+  - `MAIR: Model Agnostic Instance Reweighing for Heterogeneous Federated Learning`
+  - `FedRGL: Federated Riemannian Graph Learning in Mixed-Curvature Spaces with Ricci-Gated Convolution`
+  - `Thorki: Decoupling General and Personalized Knowledge with Collaborative Fusion for Personalized Federated Learning`
+  - `FedSRD: Sparsify-Reconstruct-Decompose for Communication-Efficient Federated Large Language Models Fine-Tuning`
+  - `WinFLoRA: Incentivizing Client-Adaptive Aggregation in Federated LoRA under Privacy Heterogeneity`
+  - `RAFed: Responsive Augmentation and Approximate Update Method for Federated Learning with Non-IID Data`
 
 - 17/06/2026: Added 13 papers, 7 starred.
- - `FedNSA: Boosting Secure Aggregation by Assembling Differentially Private Noise Shares`
- - `G2uardFL: Safeguarding Federated Learning Against Backdoor Attacks via Attributed Client Graph Clustering`
- - `EA$^{2}$2-FL: An Efficient and Authentication-Aware Privacy-Preserving Protocol for Federated Learning With Client Dropout Tolerance`
- - `SFI: A Practical and Efficient Backdoor Attack Framework Against Split Learning`
- - `Split Learning With Local Epoch Regulation and Time-Aware Detection`
- - `Stealthy Targeted Poisoning Attacks in Vertical Split Learning via Embedding Model Manipulation`
- - `Client-Cooperative Split Learning`
- - `EBFL: An Efficient Blockchain Framework for Federated Learning Services`
- - `Efficient Federated Metric Learning and Machine Unlearning Based on Prototype Distillation`
- - `Fairness-Aware Federated Recommender Design With Heterogeneous Privacy Budgets`
- - `FLISC$^{3}$: Federated Learning-Oriented Resource Optimization in ISCC-Enabled Edge Collaborative Networks`
- - `SEPP-FLBC: A Secure and Efficient Privacy Protection Scheme Using Federate Learning and Blockchain for Edge-End-Cloud Devices`
- - `SecureSplit: Mitigating Backdoor Attacks in Split Learning`
+  - `FedNSA: Boosting Secure Aggregation by Assembling Differentially Private Noise Shares`
+  - `G2uardFL: Safeguarding Federated Learning Against Backdoor Attacks via Attributed Client Graph Clustering`
+  - `EA$^{2}$2-FL: An Efficient and Authentication-Aware Privacy-Preserving Protocol for Federated Learning With Client Dropout Tolerance`
+  - `SFI: A Practical and Efficient Backdoor Attack Framework Against Split Learning`
+  - `Split Learning With Local Epoch Regulation and Time-Aware Detection`
+  - `Stealthy Targeted Poisoning Attacks in Vertical Split Learning via Embedding Model Manipulation`
+  - `Client-Cooperative Split Learning`
+  - `EBFL: An Efficient Blockchain Framework for Federated Learning Services`
+  - `Efficient Federated Metric Learning and Machine Unlearning Based on Prototype Distillation`
+  - `Fairness-Aware Federated Recommender Design With Heterogeneous Privacy Budgets`
+  - `FLISC$^{3}$: Federated Learning-Oriented Resource Optimization in ISCC-Enabled Edge Collaborative Networks`
+  - `SEPP-FLBC: A Secure and Efficient Privacy Protection Scheme Using Federate Learning and Blockchain for Edge-End-Cloud Devices`
+  - `SecureSplit: Mitigating Backdoor Attacks in Split Learning`
 
 - 16/06/2026: Added 15 papers, 2 starred.
- - `Robust Federated Learning With Double Denoising`
- - `Towards Generalization Fairness in Federated Learning`
- - `⭐ Adaptive Quantization and Differential Privacy Federated Learning Framework`
- - `Missingness-aware Federated Contrastive Learning on Semantic Graphs`
- - `FedMHO: Heterogeneous One-Shot Federated Learning Towards Resource-Constrained Clients`
- - `FedMeld: A Model-Dispersal Federated Learning Framework for Space-Ground Integrated Networks`
- - `Soft-Label Caching and Sharpening for Communication-Efficient Federated Distillation`
- - `A Federated Adaptive Large Language Model Fine-Tuning Framework for Software Development`
- - `KE-FedRS: Tackling Data Sparsity in Federated Recommendation via Knowledge Enhancement`
- - `Prototype-Aligned Federated Soft-Prompts for Continual Web Personalization`
- - `⭐ Lightweight Federated Learning with Differential Privacy and Straggler Resilience`
- - `Constrained Over-the-Air Model Updating for Wireless Online Federated Learning with Delayed Information`
- - `CARE: Compatibility-Aware Incentive Mechanisms for Federated Learning with Budgeted Requesters`
- - `Participation-Dependent Privacy Preservation in Cross-Silo Federated Learning`
- - `PromptFL: Let Federated Participants Cooperatively Learn Prompts Instead of Models - Federated Learning in Age of Foundation Model`
+  - `Robust Federated Learning With Double Denoising`
+  - `Towards Generalization Fairness in Federated Learning`
+  - `⭐ Adaptive Quantization and Differential Privacy Federated Learning Framework`
+  - `Missingness-aware Federated Contrastive Learning on Semantic Graphs`
+  - `FedMHO: Heterogeneous One-Shot Federated Learning Towards Resource-Constrained Clients`
+  - `FedMeld: A Model-Dispersal Federated Learning Framework for Space-Ground Integrated Networks`
+  - `Soft-Label Caching and Sharpening for Communication-Efficient Federated Distillation`
+  - `A Federated Adaptive Large Language Model Fine-Tuning Framework for Software Development`
+  - `KE-FedRS: Tackling Data Sparsity in Federated Recommendation via Knowledge Enhancement`
+  - `Prototype-Aligned Federated Soft-Prompts for Continual Web Personalization`
+  - `⭐ Lightweight Federated Learning with Differential Privacy and Straggler Resilience`
+  - `Constrained Over-the-Air Model Updating for Wireless Online Federated Learning with Delayed Information`
+  - `CARE: Compatibility-Aware Incentive Mechanisms for Federated Learning with Budgeted Requesters`
+  - `Participation-Dependent Privacy Preservation in Cross-Silo Federated Learning`
+  - `PromptFL: Let Federated Participants Cooperatively Learn Prompts Instead of Models - Federated Learning in Age of Foundation Model`
 
 
 
@@ -93,7 +93,6 @@ In this table, only focus on latest papers published in TIFS, TDSC, TMC, INFOCOM
 | 26/46 | | 2026 | 17/06/2026 | TSC | A | `FLISC$^{3}$: Federated Learning-Oriented Resource Optimization in ISCC-Enabled Edge Collaborative Networks` - Federated edge learning (FEEL) greatly facilitates the development of ubiquitous intelligence by combining federated learning and edge computing. However, traditional FEEL implementations assume fixed-sized local datasets, neglecting the potential of edge devices to acquire sensory information actively. Such a simplistic scenario leads to overestimating data availability and underestimating resource utilization in networks with varying resource capacity. Moreover, the existing FEEL-oriented systems with integrated sensing, communication, and computation (ISCC) have separate-based designs, leading to an inefficient use of wireless resources. To alleviate these issues, we propose a novel FEEL-oriented ISCC framework in edge collaborative networks, by leveraging the integrated sensing and communication (ISAC) technique to achieve the dual purpose of data sensing and parameter transmission. Then, over the designed framework, we present FEEL convergence analysis under non-independent and identically distributed (non-iid) and iid data. Correspondingly, we formulate a joint beamforming and flexible time duration optimization problem to maximize the convergence speed of FEEL, subject to limited resources on the devices and requirements for data sensing and communication. To address the problem efficiently, we propose an alternative optimization framework, in which the successive convex approximation (SCA) method is adopted to solve the nonconvex beamforming design subproblem, and a low-complexity method is derived for optimal time allocation. Extensive results reveal that the proposed framework can achieve excellent performance in model training accuracy by efficiently utilizing limited resources in edge collaborative networks, under iid and non-iid data. | An Du; Jie Jia; Schahram Dustdar; Andrea Morichetta; Jian Chen; Xingwei Wang | Alternative optimization, beamforming, federated edge learning, integrated sensing, communication and computation (ISCC) | resource optimization for FEEL in ISCC edge networks | [➡️](https://doi.org/10.1109/TSC.2025.3622026) |
 | 27/46 | ⭐ | 2026 | 17/06/2026 | TSC | A | `SEPP-FLBC: A Secure and Efficient Privacy Protection Scheme Using Federate Learning and Blockchain for Edge-End-Cloud Devices` - The convergence of federated learning (FL) and blockchain in edge-end-cloud systems offers promising opportunities for privacy-preserving collaborative intelligence. However, existing blockchain-enhanced FL (BFL) approaches remain vulnerable to malicious participants and lack robust protection for model updates. To address these issues, we propose SEPP-FLBC, a Secure and Efficient Privacy Protection framework based on Federated Learning and Blockchain Committees. SEPP-FLBC introduces a novel blockchain committee consensus mechanism to validate model updates and defend against unreliable nodes. It further employs a refined multi-party communication paradigm to facilitate indirect and secure data interactions, reducing the risk of information leakage. Additionally, differential privacy noise is applied to model updates to enhance resistance to inference attacks. A formal convergence analysis is conducted to ensure model stability and minimize overhead. Extensive experiments on benchmark datasets demonstrate that SEPP-FLBC achieves superior accuracy while maintaining strong privacy guarantees and communication efficiency, outperforming state-of-the-art BFL methods in both security and performance. | Libo Feng; Junwei Guo; Fake Fang; Zhenli He; Yimin Yu; Shaowen Yao; Xiaohui Peng | Blockchain, edge-end-cloud devices, federated learning, committee consensus, differential privacy | privacy-preserving blockchain FL | [➡️](https://doi.org/10.1109/TSC.2025.3641964) |
 | 28/46 | ⭐ | 2026 | 17/06/2026 | WWW | A | `SecureSplit: Mitigating Backdoor Attacks in Split Learning` - Split Learning (SL) offers a framework for collaborative model training that respects data privacy by allowing participants to share the same dataset while maintaining distinct feature sets. However, SL is susceptible to backdoor attacks, in which malicious clients subtly alter their embeddings to insert hidden triggers that compromise the final trained model. To address this vulnerability, we introduce SecureSplit, a defense mechanism tailored to SL. SecureSplit applies a dimensionality transformation strategy to accentuate subtle differences between benign and poisoned embeddings, facilitating their separation. With this enhanced distinction, we develop an adaptive filtering approach that uses a majority-based voting scheme to remove contaminated embeddings while preserving clean ones. Rigorous experiments across four datasets (CIFAR-10, MNIST, CINIC-10, and ImageNette), five backdoor attack scenarios, and seven alternative defenses confirm the effectiveness of SecureSplit under various challenging conditions. | Zhihao Dou; Dongfei Cui; Weida Wang; Anjun Gao; Yueyang Quan; Mengyao Ma; Viet Vo; Guangdong Bai; Zhuqing Liu; Minghong Fang | Split learning, backdoor attacks, defense, adaptive filtering | backdoor defense for split learning | [➡️](https://doi.org/10.1145/3774904.3792484) |
-
 | 29/46 | ⭐ | 2026 | 17/06/2026 | TIFS | A | `HEFLGuard: Backdoor Detection in Homomorphic Encryption-Based Federated Learning` - Homomorphic encryption-based federated learning (HEFL) strengthens privacy by aggregating encrypted model updates, but it also renders existing backdoor defenses that assume plaintext updates inapplicable. We present HEFLGuard, a single-server backdoor detection framework for HEFL in which the server constructs overlapping validation models from encrypted client groups and clients locally compare logits of the global and validation models on benign samples to expose backdoor behavior. HEFLGuard further combines consistency verification across non-IID validation groups with Byzantine fault-tolerant aggregation of client reports, ensuring robustness under heterogeneous data and Byzantine participants. We evaluate HEFLGuard on seven vision/text benchmarks under three backdoor types across IID and non-IID settings. HEFLGuard consistently reduces ASR from near 100% to nearly the no-backdoor level while keeping the drop in clean accuracy within 2.5%. Compared with prior work, HEFLGuard achieves higher robustness and deployability. | Congyi Li; Peizhuo Lv; Jinwen He; Kai Chen; Hong Zhu | federated learning, homomorphic encryption, backdoor defense, encrypted aggregation | homomorphic-encryption backdoor defense for federated learning | [➡️](https://doi.org/10.1109/TIFS.2026.3688017) |
 | 30/46 | ⭐ | 2026 | 17/06/2026 | TIFS | A | `Safeguarding Federated Learning From Data Reconstruction Attacks via Gradient Dropout` - Federated Learning (FL) enables collaborative model training across distributed participants without sharing raw data, offering a privacy-preserving paradigm. However, recent studies on gradient inversion attacks have demonstrated the vulnerability of FL to adversaries who can reconstruct sensitive local training data from shared gradients. To mitigate this threat, we propose Gradient Dropout, a novel defense mechanism that disrupts reconstruction attempts while preserving model utility. Specifically, Gradient Dropout perturbs gradients by randomly scaling a subset of components and replacing the remainder with Gaussian noise, thereby creating a transformed gradient space that significantly impedes reconstruction attempts. Moreover, this mechanism is applied across all layers of the model, ensuring that attackers cannot exploit any unperturbed gradients. Theoretical analysis reveals that the perturbed gradients can be kept sufficiently distant from their true values, thereby providing safety guarantees for the proposed algorithm. Furthermore, we demonstrate that this protection mechanism minimally impacts model performance, as gradient dropout and the original training dynamics remain effectively bounded under certain convexity conditions. These findings are substantiated through experimental evaluations, where we show that various attack methods yield low-quality reconstructed images while model performance is largely preserved, with less than 2% accuracy reduction relative to the baseline. As such, Gradient Dropout is presented as an effective solution for safeguarding privacy in FL, providing a balanced trade-off between privacy protection, computational efficiency, and model accuracy. | Ekanut Sotthiwat; Chi Zhang; Xiaokui Xiao; Liangli Zhen | federated learning, gradient inversion, reconstruction defense, privacy | gradient-dropout defense against reconstruction attacks | [➡️](https://doi.org/10.1109/TIFS.2026.3659401) |
 | 31/46 | ⭐ | 2026 | 17/06/2026 | TIFS | A | `Frequency-Domain Signatures for Proactive Defense Against Model Poisoning Attacks in Federated Learning` - Federated Learning enables decentralized model training without exposing raw data, but remains fundamentally vulnerable to poisoning attacks from malicious clients. Existing defenses rely heavily on passive anomaly detection, honest majority assumptions, or unrealistic statistical priors, making them ineffective against adaptive and stealthy adversaries. In this paper, we propose SpecShield, a proactive defense mechanism that actively probes client models through calibrated adversarial perturbations. By leveraging the Fast Gradient Sign Method on the server side, SpecShield elicits dynamic response patterns from each client. These responses are then analyzed in the frequency domain using the Discrete Wavelet Transform. These frequency-domain features uncover distinctive response patterns between benign and malicious clients, enabling robust detection of model poisoning attacks in both non-IID environments and Byzantine majority scenarios. We further derive theoretical upper bounds on perturbation magnitudes to guarantee detection accuracy while preserving benign client performance. Through extensive experiments conducted on real-world datasets under six state-of-the-art poisoning attacks, SpecShield consistently outperforms existing defenses in both detection accuracy and model robustness. Our results demonstrate that active perturbation-induced profiling provides a new dimension for securing federated learning against sophisticated adversarial threats. | Fangjie Hu; Aiqing Zhang; Meng Li; Chen Wang | federated learning, poisoning attack, proactive defense, frequency-domain signatures | proactive poisoning defense in federated learning | [➡️](https://doi.org/10.1109/TIFS.2026.3689720) |
