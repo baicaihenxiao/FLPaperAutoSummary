@@ -108,10 +108,17 @@
 
   function getTableData(token) {
     if (!token.text && token.type === 'table') {
-      token.cells.unshift(token.header);
-      token.text = token.cells
+      var rows = token.cells || token.rows || [];
+      var header = token.header || [];
+
+      rows = [header].concat(rows);
+      token.text = rows
         .map(function (rows) {
-          return rows.join(' | ');
+          return rows
+            .map(function (cell) {
+              return cell && typeof cell === 'object' ? cell.text || '' : cell;
+            })
+            .join(' | ');
         })
         .join(' |\n ');
     }
