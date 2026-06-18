@@ -216,11 +216,12 @@
       data = data.concat(Object.keys(INDEXS[key]).map(function (page) { return INDEXS[key][page]; }));
     });
 
-    query = query.trim();
-    var keywords = query.split(/[\s\-，\\/]+/);
-    if (keywords.length !== 1) {
-      keywords = [].concat(query, keywords);
+    query = query.trim().replace(/\s+/g, ' ');
+    if (!query) {
+      return matchingResults;
     }
+
+    var keywords = [query];
 
     var loop = function ( i ) {
       var post = data[i];
@@ -239,7 +240,7 @@
             escapeHtml(ignoreDiacriticalMarks(keyword)).replace(
               /[|\\{}()[\]^$+*?.]/g,
               '\\$&'
-            ),
+            ).replace(/\s+/g, '\\s+'),
             'gi'
           );
           var indexTitle = -1;
