@@ -4,6 +4,7 @@
 
 - <hr>
 - [CCF](/ccf.md)
+- [CCF-pdf-view.md](/CCF-pdf-view.md)
 - <hr>
 - **Papers**
 - [2026-06 updated-FL-ALL](2026-06-updated-FL-ALL.md)
