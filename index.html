@@ -90,12 +90,27 @@
 
 
         // 优化 docsify 的 search 搜索功能 https://kebingzao.com/2020/09/30/docsify-search/
-        search: 'auto',
+        // search: 'auto',
         // search: {
         //     depth      : 6,
         //     noData     : 'No results!',
         //     placeholder: 'Search...'
         // },
+
+        // Rebuild the search index on each load so recently added or updated
+        // paper rows are searchable immediately instead of waiting for the
+        // default 24h cache to expire.
+        // Search plugin configuration.
+        search: {
+            // Discover page paths automatically.
+            paths: 'auto',
+            // Search content down to six heading levels.
+            depth: 6,
+            // Disable cache so updates are indexed immediately.
+            maxAge: 0,
+            // Keep the search index scoped to this site.
+            namespace: 'flpaperautosummary',
+        },
 
 
         toc: {
