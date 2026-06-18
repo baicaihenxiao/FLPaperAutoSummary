@@ -407,11 +407,18 @@
       return;
     }
 
+    var searchQuery = value.trim().replace(/\s+/g, ' ');
     var matchs = search(value);
 
     var html = '';
     matchs.forEach(function (post) {
-      html += "<div class=\"matching-post\">\n<a href=\"" + (post.url) + "\">\n<h2>" + (post.title) + "</h2>\n<p>" + (post.content) + "</p>\n</a>\n</div>";
+      var postUrl = post.url;
+
+      if (searchQuery) {
+        postUrl += (postUrl.indexOf('?') === -1 ? '?' : '&') + 'hl=' + encodeURIComponent(searchQuery);
+      }
+
+      html += "<div class=\"matching-post\">\n<a href=\"" + (postUrl) + "\">\n<h2>" + (post.title) + "</h2>\n<p>" + (post.content) + "</p>\n</a>\n</div>";
     });
 
     $panel.classList.add('show');
