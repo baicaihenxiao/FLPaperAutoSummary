@@ -33,6 +33,10 @@ aaa
 
 </details>
 
+$$
+\boxed{\text{劳歌一曲解行舟}}
+$$
+
 ```html
 对<span style="color:red">重点</span>标红
 
@@ -59,6 +63,10 @@ aaa
 aaa
 
 </details>
+
+$$
+\boxed{\text{劳歌一曲解行舟}}
+$$
 ```
 
 
