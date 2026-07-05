@@ -8,7 +8,6 @@
 - <hr>
 - **Papers**
 - [2026-07 updated-FL-ALL](2026-07-updated-FL-ALL.md)
-- [2026-06 updated-FL-ALL](2026-06-updated-FL-ALL.md)
 - <hr>
 - 2025
 - - TIFS
