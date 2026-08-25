@@ -9,6 +9,12 @@
 <p class="icon notice" markdown="1"> baicaiDocsStyle.css 中设置了倒数第 5 列的宽度，所以不要在后面插入新列。 </p>
 
 # Instructions to update monthly table
+
+
+```
+cd /Users/cody/GitHub/FLPaperAutoSummary && docsify serve --port=8080
+```
+
 ```
 Update only the current monthly FL update summary table in this repository.
 
