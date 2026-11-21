@@ -40,6 +40,7 @@ Rules:
 - Format `added date` as `DD/MM/YYYY` for monthly tables.
 - In `Change Log`, prepend `⭐ ` to the paper title only if the paper is starred. Do not change the list format.  The date should be 1st level list, the paper list should be 2nd level list.
 - Do not add papers that already appear in this table or any other tables in the repository.
+- Order the table rows in these groups, keep the existing order inside each group, and renumber the `No.` column afterwards: (1) starred papers that are both privacy-preserving and robust, (2) starred papers that are privacy-preserving or robust, (3) other starred papers, (4) unstarred papers.
 - Ensure there are no blank lines anywhere in the table after editing.
 
 Workflow:
