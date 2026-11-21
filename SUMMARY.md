@@ -12,6 +12,7 @@
 - [2026-08 updated-FL-ALL](2026-08-updated-FL-ALL.md)
 - [2026-09 updated-FL-ALL](2026-09-updated-FL-ALL.md)
 - [2026-10 updated-FL-ALL](2026-10-updated-FL-ALL.md)
+- [2026-11 updated-FL-ALL](2026-11-updated-FL-ALL.md)
 - <hr>
 - 2025
 - - TIFS
